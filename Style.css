@@ -1,0 +1,381 @@
+/* Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background: #f5f7fa;
+    color: #333;
+}
+
+/* Navbar */
+.navbar{
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+.navbar-brand{
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.nav-link{
+    margin-left: 10px;
+    transition: 0.3s;
+}
+
+.nav-link:hover{
+    color: #0dcaf0 !important;
+}
+
+.hero{
+    min-height: 90vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 50px 10%;
+    flex-wrap: wrap;
+}
+
+.content h3{
+    font-size: 1.5rem;
+    color: #666;
+}
+
+.content h1{
+    font-size: 3rem;
+    font-weight: 700;
+    color: #222;
+}
+
+.content h2{
+    color: #0dcaf0;
+    margin-bottom: 15px;
+}
+
+.content p{
+    margin-bottom: 20px;
+    font-size: 1rem;
+}
+
+.hero img{
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 5px solid #0dcaf0;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.2);
+}
+
+#about{
+    background: white;
+    border-radius: 10px;
+    padding: 40px;
+    margin: 30px auto;
+    box-shadow: 0 2px 15px rgba(0,0,0,0.08);
+}
+
+#about h2{
+    color: #0dcaf0;
+    font-weight: 700;
+}
+
+#about p{
+    max-width: 800px;
+    margin: auto;
+    line-height: 1.8;
+}
+
+#contact{
+    text-align: center;
+    padding: 50px 20px;
+     background:linear-gradient(135deg, #f5f7fa, #f6f8fb);
+    color:#333;
+}
+#contact h2{
+    margin-bottom: 20px;
+    color: #0dcaf0;
+}
+
+#contact p{
+    margin: 10px 0;
+}
+
+.btn-info{
+    padding: 10px 25px;
+    border-radius: 25px;
+    font-weight: 500;
+    transition: 0.3s;
+}
+
+.btn-info:hover{
+    transform: translateY(-3px);
+}
+
+@media(max-width:768px){
+    .hero{
+        text-align: center;
+        padding-top: 40px;
+    }
+
+    .content h1{
+        font-size: 2.3rem;
+    }
+
+    .hero img{
+        margin-top: 30px;
+        width: 250px;
+        height: 250px;
+    }
+}
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+html{
+    scroll-behavior:smooth;
+}
+
+body{
+    font-family:'Poppins',sans-serif;
+    background:linear-gradient(135deg,#f5f7fa,#e4ecfb);
+    color:#333;
+    line-height:1.7;
+}
+
+section{
+    padding:80px 0;
+}
+
+section h2{
+    font-family:'Playfair Display',serif;
+    font-size:2.8rem;
+    font-weight:700;
+    color:#0d6efd;
+    text-align:center;
+    margin-bottom:50px;
+    position:relative;
+}
+
+section h2::after{
+    content:"";
+    width:80px;
+    height:4px;
+    background:#0d6efd;
+    display:block;
+    margin:10px auto;
+    border-radius:10px;
+}
+#about{
+    background:#fff;
+    border-radius:20px;
+    box-shadow:0 8px 25px rgba(0,0,0,0.08);
+}
+
+#about p{
+    font-size:1.15rem;
+    max-width:850px;
+    margin:auto;
+    text-align:center;
+    color:#555;
+}
+
+#skills{
+    background:#f8fbff;
+}
+
+#skills .col-md-3{
+    background:white;
+    padding:25px;
+    border-radius:15px;
+    box-shadow:0 5px 15px rgba(0,0,0,0.08);
+    transition:0.4s;
+    margin-bottom:20px;
+}
+
+#skills .col-md-3:hover{
+    transform:translateY(-10px);
+}
+
+#skills h5{
+    font-family:'Roboto Slab',serif;
+    color:#0d6efd;
+    font-weight:600;
+    margin-bottom:15px;
+}
+
+#skills p{
+    color:#666;
+}
+
+#education .card{
+    border:none;
+    border-radius:20px;
+    background:white;
+    transition:0.4s;
+}
+
+#education .card:hover{
+    transform:scale(1.02);
+}
+
+#education h4{
+    font-family:'Roboto Slab',serif;
+    color:#0d6efd;
+    font-weight:600;
+}
+
+#education p{
+    margin-bottom:8px;
+}
+
+#projects .card{
+    border:none;
+    border-radius:20px;
+    overflow:hidden;
+    transition:0.4s;
+    box-shadow:0 8px 20px rgba(0,0,0,0.08);
+}
+
+#projects .card:hover{
+    transform:translateY(-12px);
+}
+
+#projects .card-body{
+    padding:30px;
+}
+
+#projects h4{
+    font-family:'Roboto Slab',serif;
+    color:#0d6efd;
+    margin-bottom:15px;
+}
+
+#projects p{
+    color:#555;
+}
+
+#contact{
+    background:#ffffff;
+    border-radius:20px;
+}
+
+#contact form{
+    max-width:700px;
+    margin:auto;
+}
+
+#contact .form-control{
+    padding:15px;
+    border-radius:10px;
+    border:1px solid #ddd;
+    margin-bottom:20px;
+}
+
+#contact .form-control:focus{
+    box-shadow:none;
+    border-color:#0d6efd;
+}
+
+#contact button{
+    background:#0d6efd;
+    border:none;
+    padding:12px 30px;
+    border-radius:30px;
+    color:white;
+    font-weight:600;
+    transition:0.3s;
+}
+
+#contact button:hover{
+    background:#084298;
+}
+
+.navbar{
+    background:white !important;
+    box-shadow:0 3px 15px rgba(0,0,0,0.08);
+}
+
+.navbar-brand{
+    font-family:'Playfair Display',serif;
+    font-size:1.8rem;
+    font-weight:700;
+    color:#0d6efd !important;
+}
+
+.nav-link{
+    font-weight:500;
+    color:#333 !important;
+    margin-left:15px;
+    transition:0.3s;
+}
+
+.nav-link:hover{
+    color:#0d6efd !important;
+}
+
+.btn-primary{
+    border-radius:30px;
+    padding:12px 28px;
+    font-weight:600;
+    transition:0.3s;
+}
+
+.btn-primary:hover{
+    transform:translateY(-3px);
+}
+
+
+footer{
+    background:#0d6efd;
+    color:white;
+    text-align:center;
+    padding:20px;
+    margin-top:50px;
+}
+
+@media(max-width:768px){
+
+    section h2{
+        font-size:2rem;
+    }
+
+    #about p{
+        padding:0 15px;
+    }
+
+    .navbar-nav{
+        text-align:center;
+    }
+}
+#contact{
+    text-align: center;
+    padding: 60px 20px;
+    background: #212529;
+    color: white;
+}
+
+#contact h2{
+    color: #0dcaf0;
+    margin-bottom: 25px;
+    font-size: 2rem;
+}
+
+.contact-info{
+    max-width: 500px;
+    margin: auto;
+    background: rgba(255,255,255,0.1);
+    padding: 25px;
+    border-radius: 10px;
+}
+
+.contact-info p{
+    margin: 12px 0;
+    font-size: 1.1rem;
+}
